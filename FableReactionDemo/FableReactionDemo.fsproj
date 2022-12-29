@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="App.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="index.html" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="4.0.0-theta-007" />
+    <PackageReference Include="Fable.Reaction" Version="3.5.0" />
+    <PackageReference Include="Feliz" Version="1.68.0" />
+    <PackageReference Include="Feliz.CompilerPlugins" Version="2.0.0" />
+    <PackageReference Include="Feliz.UseElmish" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="public\" />
+  </ItemGroup>
+
+</Project>
